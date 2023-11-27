@@ -26,8 +26,8 @@ Config = {
         command = "kmenu"
     },
     weapons = {
-        {label = "AP Pistol", model = joaat("WEAPON_APPISTOL"), icon = "gun", price = 25000},
-        {label = "Combat Pistol", model = joaat("WEAPON_COMBATPISTOL"), icon = "gun", price = 25000},
+        {label = "AP Pistol", model = "WEAPON_APPISTOL", icon = "gun", price = 25000},
+        {label = "Combat Pistol", model = "WEAPON_COMBATPISTOL", icon = "gun", price = 25000},
     },
     notify = function(des, type)
         lib.notify({
